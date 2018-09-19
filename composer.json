@@ -1,0 +1,33 @@
+{
+  "type": "library",
+  "name": "katthewaffle/iucnapi",
+  "description": "A PHP client to retrieve data from The IUCN Red List of Threatened Species™.",
+  "version": "0.9.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jérémie Broutier",
+      "email": "jeremie.broutier@gmail.com",
+      "homepage": "https://github.com/jbroutier"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.3"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "KatTheWaffle\\IucnApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "KatTheWaffle\\IucnApi\\": "tests/"
+    }
+  }
+}
