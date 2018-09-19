@@ -1,4 +1,4 @@
-#IUCN API Client
+# IUCN API Client
 
 A PHP client to retrieve data from [The IUCN Red List of Threatened Species™](http://www.iucnredlist.org/).
 It currently supports the version 3 of the API as described in the [API reference](http://apiv3.iucnredlist.org/api/v3/docs).  
